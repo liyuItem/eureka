@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: eureka
+  security:
+    user:
+      name: liyu
+      password: 1234
+
+server:
+  port: 8761
+
+eureka:
+  client:
+    allow-redirects: false
+    fetch-registry: false
+    register-with-eureka: false
+  server:
+    enable-self-preservation: false
+    response-cache-update-interval-ms: 1000
+    eviction-interval-timer-in-ms: 1000
+
